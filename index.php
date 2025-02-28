@@ -1,4 +1,18 @@
 <?php
+require_once "db/article.php";
+require_once "db/categories.php";
+
+//pour afficher un article dans la page article(single)
+
+
+$articlesOfCategoryOne = getArticlesByCategory(1);
+$categories = getCategories();
+$category = getCategory(2);
+
+
+
+
+
 $title = "accueil";
 include "components/header.php";
 
@@ -53,3 +67,4 @@ include "components/header.php";
 
 
 <?php include  "components/footer.php"; ?>
+

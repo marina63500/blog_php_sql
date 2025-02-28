@@ -1,5 +1,7 @@
-    <p class="footer">crée par marina Stollesteiner</p>
-    <p>le 25 février 2025</p>
+    <footer class="footer">
+        <p>crée par marina Stollesteiner</p>
+        <p>le 25 février 2025</p>
+    </footer>
 
 
 

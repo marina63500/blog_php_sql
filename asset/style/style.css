@@ -1,6 +1,21 @@
-.footer ,p{
+.footer p{
     display:flex;
     justify-content: center ;
     align-items: center;
     margin:10px;
 }
+
+.carroussel-item img{
+    height: 500px;
+    object-fit: cover;
+   
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+
